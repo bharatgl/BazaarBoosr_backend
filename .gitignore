@@ -4,7 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/.env
+/.gitignore
 # testing
 /coverage
 
@@ -12,8 +13,7 @@
 /build
 
 # misc
-env
-gitignore
+
 .DS_Store
 .env.local
 .env.development.local
