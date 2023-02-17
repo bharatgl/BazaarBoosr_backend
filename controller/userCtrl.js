@@ -15,4 +15,12 @@ const createUser = asyncHandler(async (req, res) => {
     throw new Error("User Already Exists");
   }
 });
-module.exports = { createUser };
+
+const loginUserControl = asyncHandler(async (req, res) => {
+  const { email, password } = req.body;
+
+/*check if user exists or not */
+
+});
+
+module.exports = { createUser, loginUserControl };
